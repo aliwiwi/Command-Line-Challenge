@@ -1,0 +1,57 @@
+Entrar al directorio thecmdchallenge
+cd thecmdchallenge/ (para entrar a carpeta)
+
+Imprimir la ruta del directorio actual  
+pwd (Mostrar directorio actual)
+
+Enumere todos los archivos del directorio actual, incluido ocultos
+ls -a (Listar archivos incluidos ocultos)
+
+Enumerar todos los archivos dentro del proyecto, recursivamente
+ls -R (listar archivos por jerarquía)
+
+Limpiar la consola
+clear (Limpiar consola)
+
+Entrar al ultimo nivel de la carpeta small-name y mostrar en la consola el contenido de thophy.txt
+cd small-name (entrar a carpeta)
+ls(ver archivos dentro de carpeta)
+cd bigger-name-than-before (entrar a carpeta)
+ls(ver archivos dentro de carpeta)
+cd omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (entrar a carpeta)
+ls(ver archivos dentro de carpeta)
+cd this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (entrar a carpeta)
+ls(ver archivos dentro de carpeta)
+(una vez encontrado el archivo que buscamos se hace cat)
+cat trophy.txt (mostar archivo en terminal)
+
+
+Mostrar todos los archivos .js dentro de la carpeta funcode
+cd ../../../../ (para volver a thecmdchallenge)
+cd funcode (para entrar a carpeta)
+ls*.js (para buscar los archivos .js)
+
+
+Crear  una nueva carpeta dentro de "funcode/the-most-funny/" que se llame "not-thatfunny"
+cd ../ (para volver a la carpeta "principal")
+cd funcode/the-most-funny/(para entrar en carpeta)
+mkdir not-that-funny (para crear carpeta)	
+
+Crear una copia de the-mostboring-text.txt y llamarla lol.txt
+cp i-can-believe-how-borinlg/the-ultimate-boring-inception/the-mostboring-text.txt lol.txt
+
+Mover funcode/kids.jpg a funcode/images/hello
+mv funcode/kids.jpg funcode/images/hello
+
+Remover small-name
+rm -r small-name(remover directorio con todo dentro)
+
+Imprime en la linea de comando the-ultimate-joke.txt
+cd funcode/the-most-funny/lol (entrar a carpeta)
+cat the-ultimate-joke.txt (mostar archivo en terminal)
+
+Remover los archivos de boringfolder
+rm -r boringfolder/* (remover archivos dentro de la carpeta)
+
+Abrir kamehameha/dragon-ball-jokes.md usando el editor de VI 
+vim kamehameha/dragon-ball-jokes.md (abre el archivo usando el editor VI)
